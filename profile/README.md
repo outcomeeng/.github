@@ -9,6 +9,9 @@ The Spec Tree is a **durable map** of your product. Nothing moves because work i
 ## Get started
 
 ```bash
+# Install the spx CLI
+npm install -g @outcomeeng/spx
+
 # Add the plugin marketplace to Claude Code
 claude plugin marketplace add outcomeeng/claude
 
@@ -23,6 +26,7 @@ claude plugin install spec-tree@outcomeeng
 
 | Repository | Purpose |
 | ---------- | ------- |
+| [spx](https://github.com/outcomeeng/spx) | The spx CLI — developer tool for spec-driven development |
 | [claude](https://github.com/outcomeeng/claude) | Plugin marketplace — spec-tree skills, language plugins, prose, testing |
 | [spec-tree](https://github.com/outcomeeng/spec-tree) | Distributed spec-tree skills (auto-synced from marketplace) |
 | [python](https://github.com/outcomeeng/python) | Distributed Python engineering skills |
