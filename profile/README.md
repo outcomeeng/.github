@@ -24,14 +24,30 @@ claude plugin install spec-tree@outcomeeng
 
 ## Repositories
 
-| Repository | Purpose |
-| ---------- | ------- |
-| [spx](https://github.com/outcomeeng/spx) | The spx CLI — developer tool for spec-driven development |
-| [claude](https://github.com/outcomeeng/claude) | Plugin marketplace — spec-tree skills, language plugins, prose, testing |
-| [spec-tree](https://github.com/outcomeeng/spec-tree) | Distributed spec-tree skills (auto-synced from marketplace) |
-| [python](https://github.com/outcomeeng/python) | Distributed Python engineering skills |
-| [typescript](https://github.com/outcomeeng/typescript) | Distributed TypeScript engineering skills |
-| [foundation](https://github.com/outcomeeng/foundation) | Distributed foundation skills (prose, plugin development, frontend) |
+### CLI
+
+| Repository | Purpose | Install |
+| ---------- | ------- | ------- |
+| [spx](https://github.com/outcomeeng/spx) | Developer tool for spec-driven development | `npm install -g @outcomeeng/spx` |
+
+### Claude Code
+
+| Repository | Purpose | Install |
+| ---------- | ------- | ------- |
+| [claude](https://github.com/outcomeeng/claude) | Plugin marketplace — all plugins below | `claude plugin marketplace add outcomeeng/claude` |
+
+Individual plugins: `claude plugin install spec-tree@outcomeeng`, `python@outcomeeng`, `typescript@outcomeeng`, `prose@outcomeeng`, `claude@outcomeeng`
+
+### Other AI agents
+
+Skills distributed as standalone repositories, compatible with any agent that supports the [Agent Skills](https://vercel.com/docs/agent-resources/skills) open standard.
+
+| Repository | Purpose | Install |
+| ---------- | ------- | ------- |
+| [spec-tree](https://github.com/outcomeeng/spec-tree) | Spec-tree skills for spec-driven development | `npx skills add outcomeeng/spec-tree` |
+| [python](https://github.com/outcomeeng/python) | Python engineering skills | `npx skills add outcomeeng/python` |
+| [typescript](https://github.com/outcomeeng/typescript) | TypeScript engineering skills | `npx skills add outcomeeng/typescript` |
+| [foundation](https://github.com/outcomeeng/foundation) | Foundation skills (prose, plugin development, frontend) | `npx skills add outcomeeng/foundation` |
 
 ## Links
 
