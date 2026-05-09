@@ -4,7 +4,7 @@ AI-assisted development produces code fast — but without structure, that code 
 
 The Spec Tree is a **durable map** of your product. Nothing moves because work is "done" — specs are permanent truth. Status is derived from tests, not labels. Context is deterministic: the tree path defines exactly what an agent sees.
 
-![Bootstrapping a spec tree — Claude interviews you about your product's scope](https://raw.githubusercontent.com/outcomeeng/claude/main/assets/tutorial/bootstrap/60-boostrap-02-questionnaire-02.png)
+![Bootstrapping a spec tree — Claude interviews you about your product's scope](https://raw.githubusercontent.com/outcomeeng/plugins/main/assets/tutorial/bootstrap/60-boostrap-02-questionnaire-02.png)
 
 ## Get started
 
@@ -13,7 +13,7 @@ The Spec Tree is a **durable map** of your product. Nothing moves because work i
 npm install -g @outcomeeng/spx
 
 # Add the plugin marketplace to Claude Code
-claude plugin marketplace add outcomeeng/claude
+claude plugin marketplace add outcomeeng/plugins
 
 # Install the Spec Tree plugin
 claude plugin install spec-tree@outcomeeng
@@ -34,9 +34,9 @@ claude plugin install spec-tree@outcomeeng
 
 | Repository | Purpose | Install |
 | ---------- | ------- | ------- |
-| [claude](https://github.com/outcomeeng/claude) | Plugin marketplace — all plugins below | `claude plugin marketplace add outcomeeng/claude` |
+| [plugins](https://github.com/outcomeeng/plugins) | Plugin marketplace — all plugins below | `claude plugin marketplace add outcomeeng/plugins` |
 
-Individual plugins: `claude plugin install spec-tree@outcomeeng`, `python@outcomeeng`, `typescript@outcomeeng`, `prose@outcomeeng`, `claude@outcomeeng`
+Individual plugins: `claude plugin install spec-tree@outcomeeng`, `python@outcomeeng`, `typescript@outcomeeng`, `prose@outcomeeng`
 
 ### Other AI agents
 
